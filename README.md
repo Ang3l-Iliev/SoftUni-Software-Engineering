@@ -1,3 +1,2 @@
 # SoftUni-Software-Engineering
- Course exercises | SoftUni | Angel Iliev
-
+ Course exercises | SoftUni | Angel Iliev.
