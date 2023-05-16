@@ -1,20 +1,15 @@
-function greatestCommonDivisor(x, y) {
-let sum = 0 
-
-    for (let i = 0; i <= x; i++) {
-        
-        if (i % y === 0) {
-            sum=i
-        } else {
-           sum=y
-        }
-
-
-
-
-
+function solve(a, b) {
+    let small = Math.min(a, b);
+    let large = Math.max(a, b);
+    let remainder = 1;
+    while (remainder !== 0) {
+        remainder = large % small;
+        large = small;
+        small = remainder;
     }
-    console.log(sum);
+    console.log(large);
 }
 
-greatestCommonDivisor(15, 5)
+solve(
+    2154, 458
+)
